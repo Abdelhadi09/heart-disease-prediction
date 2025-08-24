@@ -1,0 +1,209 @@
+/* PredictionResult.css - extracted from Tailwind classes */
+
+.prediction-root {
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background: #101a23;
+  overflow-x: hidden;
+  font-family: Inter, 'Noto Sans', sans-serif;
+}
+
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.prediction-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+  border-bottom: 1px solid #223649;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.prediction-header-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #fff;
+}
+
+.prediction-header-nav {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.prediction-header-links {
+  display: flex;
+  align-items: center;
+  gap: 2.25rem;
+}
+
+.prediction-header-link {
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.prediction-header-avatar {
+  background-position: center;
+  background-repeat: no-repeat;
+  aspect-ratio: 1/1;
+  background-size: cover;
+  border-radius: 9999px;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.prediction-content {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.layout-content-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  flex: 1;
+}
+
+.prediction-title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 1rem;
+}
+
+.prediction-title-text {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  min-width: 18rem;
+  letter-spacing: 0.01em;
+}
+
+.prediction-patient {
+  color: #90adcb;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.prediction-risk {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem;
+}
+
+.prediction-risk-row {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+.prediction-risk-label {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.prediction-risk-value {
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.prediction-bar-bg {
+  border-radius: 0.5rem;
+  background: #314d68;
+}
+
+.prediction-bar {
+  height: 0.5rem;
+  border-radius: 0.5rem;
+  background: #3d98f4;
+}
+
+.prediction-risk-status {
+  color: #90adcb;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.prediction-factors {
+  border-radius: 0.5rem;
+  background: #314d68;
+  padding: 1rem;
+}
+
+.prediction-factors-title {
+  color: #fff;
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  padding-bottom: 0.75rem;
+}
+
+.prediction-factors-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.prediction-factor-label {
+  color: #90adcb;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.prediction-factor-value {
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.prediction-description {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 0.75rem;
+  padding-top: 0.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.prediction-error {
+  color: #ef4444;
+  padding: 2rem;
+}
+
+.prediction-loading {
+  color: #fff;
+  padding: 2rem;
+}

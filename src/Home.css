@@ -1,0 +1,171 @@
+/* Home.css - extracted from Tailwind classes */
+
+.home-root {
+  position: relative;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background: #101a23;
+  overflow-x: hidden;
+  font-family: Inter, 'Noto Sans', sans-serif;
+  text-align: left;
+}
+
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.home-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+  border-bottom: 1px solid #223649;
+  padding: 12px 40px;
+}
+#logo{
+  margin: 0%;
+}
+.home-header-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #fff;
+}
+
+.home-header-nav {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.home-header-links {
+  display: flex;
+  align-items: center;
+  gap: 2.25rem;
+}
+
+.home-header-link {
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.home-header-avatar {
+  background-position: center;
+  background-repeat: no-repeat;
+  aspect-ratio: 1/1;
+  background-size: cover;
+  border-radius: 9999px;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.home-content {
+  padding-left: 10rem;
+  padding-right: 10rem;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.layout-content-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  flex: 1;
+  padding: 0%;
+}
+
+.home-title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+
+.home-title-text {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  min-width: 18rem;
+  letter-spacing: 0.01em;
+  margin: 0%;
+}
+
+.home-title-desc {
+  color: #90adcb;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.home-section-title {
+  color: #fff;
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+}
+
+.home-section-desc {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+.home-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.home-stat-card {
+  display: flex;
+  min-width: 158px;
+  flex: 1;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  border: 1px solid #314d68;
+  padding: 1.5rem;
+}
+
+.home-stat-label {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0%;
+}
+
+.home-stat-value {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  margin: 0%;
+}
+
+.home-stat-change-pos {
+  color: #0bda5b;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0%;
+}
+
+.home-stat-change-neg {
+  color: #fa6238;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0%;
+}
